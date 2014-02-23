@@ -1,0 +1,318 @@
+/*
+
+darkred: #811f25;
+lightred: #ac2931;
+
+*/
+
+body,html {
+  height : 100%;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+p {
+  line-height: 1.5;
+}
+h1, .h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+.header {
+  height: auto;
+  background-color: #ac2931;
+  padding: 40px 0;
+}
+.header li {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.header li:last-child {
+  margin-right: 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header a:hover, .header a:active {
+  text-decoration: underline;
+}
+.header span {
+  display: inline-block;
+  padding-top: 10px;
+}
+.icon {
+  display: block;
+  width: 1.6em;
+  height: 1.6em;
+  margin: auto;
+  background-color: #811f25;
+  border-radius: 50%;
+}
+.icon-twitter {
+  background-image: url(../img/icon_twitter.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 14px;
+}
+.icon-ribbon {
+  background-image: url(../img/icon_ribbon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 12px 16px;
+}
+.icon-question {
+  background-image: url(../img/icon_about.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 12px 16px;
+}
+.icon-github {
+  background-image: url(../img/icon_github.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 22px 22px;
+}
+.section {
+  padding: 30px 0;
+}
+.section--darkred {
+  background-color: #811f25;
+}
+.section--darkred h1 {
+  margin-bottom: 30px;
+  color: #ac2931;
+}
+.section--lightred {
+  background-color: #ac2931;
+}
+.section--lightred .h1 {
+  margin-bottom: 50px;
+  color: #811f25;
+}
+.inner {
+  width: 90%;
+  margin: auto;
+}
+.pledge {
+  margin: 100px 0 100px;
+}
+.pledge p {
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 22px;
+}
+.pledge ol {
+  text-align: left;
+}
+.pledge li {
+  margin-bottom: 20px;
+}
+.tag {
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  color: #811f25;
+  text-align: center;
+  font-weight: 900;
+}
+.tag--white {
+  background-color: white;
+}
+.about {
+}
+.about p {
+  margin: 20px 0 40px;
+}
+.campaigns {
+  margin: 60px 0 100px;
+}
+.campaigns li {
+  display: inline-block;
+
+}
+.campaigns a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px 20px;
+  border-radius: 5px;
+  background: #811f25;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid 2px #811f25;
+}
+.campaigns a:hover, .campaigns a:active {
+  border: solid 2px white;
+}
+
+.logo-ribbon {
+  width: 150px;
+  height: 220px;
+  margin: auto;
+  margin-top: 30px;
+  background: url(../img/whiteribbon.png) no-repeat;
+  background-position: center center;
+  background-size: 110px 210px;
+}
+.logo-ruby {
+  width: 320px;
+  height: 140px;
+  margin: auto;
+  background: url(../img/br_bg.png) no-repeat;
+  background-position: center center;
+  background-size: 320px 70px;
+}
+
+#conferences a,
+#conferences-about a {
+  color: white;
+  text-decoration: underline;
+}
+#conferences table {
+  margin: 0 auto;
+}
+#conferences th,
+#conferences td {
+  text-align: left;
+  padding: 0.5em 1em;
+}
+#conferences th {
+  color: #811F25;
+}
+#conferences thead tr,
+#conferences tbody tr:nth-child(even) {
+  background-color: #AC2931;
+}
+#conferences a.fn {
+  vertical-align: super;
+  font-size: 0.7em;
+}
+#conferences tfoot {
+  font-size: 0.85em;
+}
+#conferences tfoot tr:first-child td {
+  padding-top: 1em;
+}
+#conferences tfoot ol {
+  counter-reset: li;
+  margin-left: 0;
+  padding-left: 0;
+}
+#conferences tfoot li {
+  position: relative;
+  padding: 1em 1em 0 1em;
+  list-style: none;
+}
+#conferences tfoot li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1em;
+  width: 2em;
+  color: #fff;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+  .inner {
+    width: 80%;
+  }
+}
+@media (min-width: 600px) {
+  .inner {
+    width: 70%;
+  }
+  .pledge ol {
+    width: 90%;
+    min-width: 507px;
+    margin: auto;
+  }
+  .about p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+@media (min-width: 800px) {
+  .inner {
+    width: 69%;
+  }
+  .header {
+    height: 140px;
+    padding: 0;
+  }
+  .header ul {
+    padding-top: 2.5em;
+  }
+  .header li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 3em;
+  }
+  .pledge ol {
+    width: 85%;
+    margin: auto;
+  }
+  .about p {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .inner {
+    width: 67%;
+  }
+  .about p {
+    width: 80%;
+  }
+  .pledge ol {
+    width: 67%;
+    margin: auto;
+  }
+  .header li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 6em;
+  }
+}
+@media (min-width: 1440px) {
+  .inner {
+    width: 55%;
+  }
+  .header li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 6em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inner {
+    width: 40%;
+  }
+  .header li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 6em;
+  }
+}
