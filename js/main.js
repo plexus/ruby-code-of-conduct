@@ -180,7 +180,7 @@ Confs.data = [
   }, {
     name: "RailsClub",
     twitter: "railsclub_ru",
-    policies: [{ text: "Planned" }]
+    policies: [{ text: "CoC", url: "http://railsclub.ru/code_of_conduct?locale=en" }]
   }, {
     name: "RubyConf Argentina",
     twitter: "rubyconfar",
