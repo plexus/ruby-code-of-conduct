@@ -189,6 +189,10 @@ Confs.data = [
       url: "http://rubyconfargentina.org/en/#admission-disclaimer",
       note: "Argentinian laws are strict about discrimination and harassment issues: Any kind of discrimination or harassment related to gender, race or religion is considered a felony in Argentina. The conference has the following statement in the footer of their website, and the same is announced to the attendees during the event: <em>The event organizers reserve the right to refuse admission or expel any participant engaging in incorrect behavior in accordance with the provisions of law.</em> The conference takes aggressive behavior very seriously and does not allow such conducts within the hours of the conference."
     }]
+  }, {
+    name: "eurucamp",
+    twitter: "eurucamp",
+    policies: [{ text: "CoC": url: "http://2014.eurucamp.org/policies" }]
   },
 
 ];
