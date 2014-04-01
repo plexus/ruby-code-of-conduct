@@ -168,7 +168,7 @@ Confs.data = [
   }, {
     name: "RubyConf Taiwan",
     twitter: "rubytaiwan",
-    policies: [{ text: "Planned" }]
+    policies: [{ text: "CoC": url: "http://rubyconf.tw/2014/#coc" }]
   }, {
     name: "wroc_love.rb",
     twitter: "wrocloverb",
@@ -193,8 +193,7 @@ Confs.data = [
     name: "eurucamp",
     twitter: "eurucamp",
     policies: [{ text: "CoC": url: "http://2014.eurucamp.org/policies" }]
-  },
-
+  }
 ];
 Confs.find = function(conf) {
   return $.grep(Confs.data, function(c) { if(conf.name == c.name || conf.twitter == c.twitter) return c; })[0];
