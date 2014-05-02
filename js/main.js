@@ -168,7 +168,7 @@ Confs.data = [
   }, {
     name: "RubyConf Taiwan",
     twitter: "rubytaiwan",
-    policies: [{ text: "CoC": url: "http://rubyconf.tw/2014/#coc" }]
+    policies: [{ text: "CoC", url: "http://rubyconf.tw/2014/#coc" }]
   }, {
     name: "wroc_love.rb",
     twitter: "wrocloverb",
