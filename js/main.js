@@ -192,7 +192,7 @@ Confs.data = [
   }, {
     name: "eurucamp",
     twitter: "eurucamp",
-    policies: [{ text: "CoC": url: "http://2014.eurucamp.org/policies" }]
+    policies: [{ text: "CoC", url: "http://2014.eurucamp.org/policies" }]
   }
 ];
 Confs.find = function(conf) {
