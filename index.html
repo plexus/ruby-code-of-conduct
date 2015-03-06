@@ -1,54 +1,104 @@
----
-layout: default
-title: Code of Conducts
-permalink: /
----
-<section class="section section--darkred" role="main" id="conferences">
-  <div class="inner">
-    <h1>Conferences</h1>
-    <p>
-      This list intends to provide information about the availability of a
-      Code of Conduct at Ruby conferences, or other approaches taken in order
-      to help provide a safe and comfortable experience to everyone at a
-      conference.
-    </p>
-    <p>
-      This page is a work in progress.
-    </p>
-    <table id="conferences">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Date</th>
-          <th>Twitter</th>
-          <th>&nbsp;</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-      <tfoot><tr><td colspan="4"><ol></ol></td></tr></tfoot>
-    </table>
-  </div>
-</section>
-<section class="section section--lightred" id="conferences-about">
-  <div class="inner">
-    <h2 class="h1">What is this list about?</h2>
-    <div class="about">
-      <p>
-        We believe every conference should have a Code of Conduct and
-        information about the presence of a Code of Conduct will be valuable
-        to conference attendees, speakers and organizers.
-      </p>
-      <p>
-        We re-publish and add onto the data from the great project <a href="http://rubyconferences.org">RubyConferences.org</a>
-        with their <a href="https://github.com/ruby-conferences/ruby-conferences-site/issues/13">permission</a>,
-        and according to the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC Attribution-NonCommercial-ShareAlike 4.0 License</a>.
-      </p>
-      <p>
-        If you find a Ruby conference missing, please file an issue or submit a pull request
-        to the <a href="https://github.com/ruby-conferences/ruby-conferences-site">RubyConferences.org repository</a>.
-        If you find information about a Code of Conduct missing or out of date, please file an issue
-        or submit a pull request on our <a href="https://github.com/plexus/ruby-code-of-conduct">repository</a>.
-      </p>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruby Code of Conduct</title>
+    <meta name="description" content="">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/js-yaml.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="wrapper">
+      <!--
+      <header class="header" role="banner">
+        <div class="inner">
+          <ul>
+            <li>
+              <a href="/#">
+                <i class="icon icon-question"></i>
+                <span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      -->
+      <section class="section section--darkred" role="main" id="conferences">
+        <div class="inner">
+          <h1>Conferences</h1>
+          <p>
+            This list intends to provide information about the availability of a
+            Code of Conduct at Ruby conferences, or other approaches taken in order
+            to help provide a safe and comfortable experience to everyone at a
+            conference.
+          </p>
+          <p>
+            This page is a work in progress.
+          </p>
+          <table id="conferences">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Twitter</th>
+                <th>&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot><tr><td colspan="4"><ol></ol></td></tr></tfoot>
+          </table>
+        </div>
+      </section>
+      <section class="section section--lightred" id="conferences-about">
+        <div class="inner">
+          <h2 class="h1">What is this list about?</h2>
+          <div class="about">
+            <p>
+              We believe every conference should have a Code of Conduct and
+              information about the presence of a Code of Conduct will be valuable
+              to conference attendees, speakers and organizers.
+            </p>
+            <p>
+              We re-publish and add onto the data from the great project <a href="http://rubyconferences.org">RubyConferences.org</a>
+              with their <a href="https://github.com/ruby-conferences/ruby-conferences-site/issues/13">permission</a>,
+              and according to the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC Attribution-NonCommercial-ShareAlike 4.0 License</a>.
+            </p>
+            <p>
+              If you find a Ruby conference missing, please file an issue or submit a pull request
+              to the <a href="https://github.com/ruby-conferences/ruby-conferences-site">RubyConferences.org repository</a>.
+              If you find information about a Code of Conduct missing or out of date, please file an issue
+              or submit a pull request on our <a href="https://github.com/plexus/ruby-code-of-conduct">repository</a>.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-</section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X');ga('send','pageview');
+      </script> -->
+  </body>
+</html>
