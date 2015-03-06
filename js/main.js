@@ -153,6 +153,48 @@ Confs.data = [
   }, {
     name: "eurucamp",
     policies: [{ text: "CoC", url: "http://2014.eurucamp.org/policies" }]
+  }, {
+    name: "Tropical Ruby",
+    policies: [{ text: "CoC", url: "http://tropicalrb.com/en/code-of-conduct/"}]
+  }, {
+    name: "Bath Ruby Conference",
+    policies: [{ text: "CoC", url: "http://2015.bathruby.org/code-of-conduct.html"}]
+  }, {
+    name: "RubyConfLT",
+    policies: [{ text: "CoC", url: "http://confcodeofconduct.com/"}]
+  }, {
+    name: "Ancient City Ruby",
+    policies: [{ text: "Conference Policy", url: "http://www.ancientcityruby.com/conference_policy/"}]
+  }, {
+    name: "RubyConf Kenya",
+    policies: [{ text: "CoC", url: "http://ruby-conf-ke.nairuby.org/2015#conduct"}]
+  }, {
+    name: "RedDotRubyConf",
+    policies: [{ text: "CoC", url: "http://www.reddotrubyconf.com/#code-of-conduct"}]
+  }, {
+    name: "Brighton Ruby",
+    policies: [{ text: "CoC", url: "http://brightonruby.com/misc/code-of-conduct"}]
+  }, {
+    name: "Rocky Mountain Ruby Conference",
+    policies: [{ text: "CoC", url: "http://www.rockymtnruby.com/#conduct"}]
+  }, {
+    name: "JRubyConf EU",
+    policies: [{ text: "CoC", url: "http://2015.eurucamp.org/policies"}]
+  }, {
+    name: "RubyKaigi",
+    policies: [{ text: "Anti-Harassment Policy", url: "http://rubykaigi.org/2014/anti-harassment-policy"}]
+  }, {
+    name: "ArrrrCamp",
+    policies: [{ text: "CoC", url: "http://2014.arrrrcamp.be/coc/"}]
+  }, {
+    name: "RubyConf Portugal",
+    policies: [{ text: "CoC", url: "https://github.com/groupbuddies/rubyconf-pt/blob/master/_includes/code-of-conduct.md"}]
+  }, {
+    name: "Keep Ruby Weird",
+    policies: [{ text: "CoC", url: "http://keeprubyweird.com/code-of-conduct.html"}]
+  }, {
+    name: "Ruby devroom at FOSDEM",
+    policies: [{ text: "CoC", url: "http://rubyberlin.github.io/code-of-conduct/"}]
   }
 ];
 Confs.find = function(conf) {
