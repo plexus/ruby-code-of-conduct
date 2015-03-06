@@ -41,157 +41,117 @@ var Confs = function(selector, urls) {
 Confs.data = [
   {
     name: "Ruby Conf Australia",
-    twitter: "rubyconf_au",
     policies: [
       { text: "CoC", url: "http://ruby.org.au/code-of-conduct.html" },
       { text: "Policies", url: "http://rubyconf.org.au/policies" }
     ]
   }, {
     name: "Rubyfuza",
-    twitter: "rubyfuza",
     policies: [{ text: "CoC", url: "http://rubyfuza.org/coc" }]
   }, {
     name: "MountainWest RubyConf",
-    twitter: "mwrc",
     policies: [{ text: "CoC", url: "http://mtnwestrubyconf.org" }]
   }, {
     name: "Los Angeles Ruby Conference",
-    twitter: "larubyconf",
     policies: [{ text: "CoC", url: "http://larubyconf.com/code-of-conduct" }]
   }, {
     name: "Big Ruby",
-    twitter: "bigrubyconf",
     policies: [{ text: "CoC", url: "http://www.bigrubyconf.com/code-of-conduct.html" }]
   }, {
     name: "RubySauna",
-    twitter: "rubysauna",
     policies: [{ text: "CoC", url: "http://www.rubysauna.org/conduct" }]
   }, {
     name: "Ruby on Ales",
-    twitter: "rbonales",
     policies: [{ text: "CoC", url: "http://onales.com/code-of-conduct" }]
   }, {
     name: "RubyConf India",
-    twitter: "rubyconfindia",
     policies: [{ text: "CoC", url: "http://rubyconfindia.org/2014/code.html" }]
   }, {
     name: "RubyConf Philippines",
-    twitter: "rubyconfph",
     policies: [{ text: "CoC", url: "http://rubyconf.ph/#codeofconduct" }]
   }, {
     name: "RailsConf",
-    twitter: "railsconf",
     policies: [{ text: "Policies", url: "http://www.railsconf.com/policies" }]
   }, {
     name: "Abril Pro Ruby",
-    twitter: "abrilproruby",
     policies: [{ text: "CoC", url: "http://abrilproruby.com/en/code-of-conduct" }]
   }, {
     name: "Scottish Ruby Conf",
-    twitter: "scotrubyconf",
     policies: [{ text: "CoC", url: "http://2014.scottishrubyconference.com/conduct" }]
   }, {
     name: "RubyConf Uruguay",
-    twitter: "rubyconfuruguay",
     policies: [{ text: "CoC", url: "http://www.rubyconfuruguay.org/en/conference_editions/8/pages/1" }]
   }, {
     name: "EuRuKo",
-    twitter: "euruko",
     policies: [{ text: "CoC", url: "http://euruko2013.org/codeofconduct" }]
   }, {
     name: "Burlington Ruby Conference",
-    twitter: "btvrubyconf",
     policies: [
       { text: "CoC", url: "http://burlingtonrubyconference.com/conduct.html" },
       { text: "Diversity", url: "http://burlingtonrubyconference.com/diversity.html" }
     ]
   }, {
     name: "Steel City Ruby",
-    twitter: "steelcityruby",
     policies: [{ text: "Policies", url: "http://steelcityruby.org/policies.html" }]
   }, {
     name: "Madison Ruby Conference",
-    twitter: "madisonruby",
     policies: [{ text: "Planned" }]
   }, {
     name: "Frozen Rails",
-    twitter: "frozenrails",
     policies: [{ text: "CoC", url: "http://2014.frozenrails.eu/code" }]
   }, {
     name: "Barcelona Ruby Conf",
-    twitter: "baruco",
     policies: [{ text: "CoC", url: "http://www.baruco.org/code_of_conduct" }]
   }, {
     name: "Golden Gate Ruby Conference",
-    twitter: "gogaruco",
     policies: [{ text: "CoC", url: "http://gogaruco.com/#conduct-heading" }]
   }, {
     name: "Ruby DCamp",
-    twitter: "ruby_dcamp",
     policies: [{ text: "CoC", url: "http://rubydcamp.org/coc" }]
   }, {
     name: "RubyConf",
-    twitter: "rubyconf",
     policies: [{ text: "Policies", url: "http://rubyconf.org/policies" }]
   }, {
     name: "LoneStarRuby",
-    twitter: "lonestarruby",
     policies: [{ text: "Policies", url: "http://www.lonestarruby.org/2013/lsrc#legal-information" }]
   }, {
     name: "GoRuCo",
-    twitter: "goruco",
     policies: [{ text: "CoC", url: "http://goruco.com/code-of-conduct" }]
   }, {
     name: "Nickel City Ruby Conference",
-    twitter: "nickelcityruby",
     policies: [{ text: "CoC", url: "https://github.com/nickelcityruby/code-of-conduct/blob/master/code_of_conduct.md" }]
   }, {
     name: "Cascadia Ruby",
-    twitter: "cascadiaruby",
     policies: [{ text: "Policies", url: "http://cascadiaruby.com/policies" }]
   }, {
     name: "RubyNation",
-    twitter: "rubynation",
     policies: [{ text: "CoC", url: "http://www.rubynation.org/code_of_conduct" }]
   }, {
     name: "Ruby Lugdunum",
-    twitter: "rulu",
     policies: [{ text: "Policies", url: "http://2013.rulu.eu/policies" }]
   }, {
     name: "WindyCityRails",
-    twitter: "windycityrails",
     policies: [{ text: "CoC", url: "http://www.windycityrails.org/code-of-conduct" }]
   }, {
     name: "Garden City RubyConf",
-    twitter: "gardencityrb",
     policies: [{ text: "CoC", url: "http://www.gardencityruby.org/code-of-conduct" }]
   }, {
     name: "RubyConf Taiwan",
-    twitter: "rubytaiwan",
     policies: [{ text: "CoC", url: "http://rubyconf.tw/2014/#coc" }]
   }, {
-    name: "wroc_love.rb",
-    twitter: "wrocloverb",
-    policies: [{ text: "CoC", url: "http://wrocloverb.com" }]
-  }, {
     name: "RailsIsrael",
-    twitter: "fogelmania",
     policies: [{ text: "Planned", url: "http://railsisrael2014.events.co.il/pages/coc" }]
   }, {
     name: "RailsClub",
-    twitter: "railsclub_ru",
     policies: [{ text: "CoC", url: "http://railsclub.ru/code_of_conduct?locale=en" }]
   }, {
     name: "RubyConf Argentina",
-    twitter: "rubyconfar",
     policies: [{
       text: "Other",
-      url: "http://rubyconfargentina.org/en/#admission-disclaimer",
-      note: "Argentinian laws are strict about discrimination and harassment issues: Any kind of discrimination or harassment related to gender, race or religion is considered a felony in Argentina. The conference has the following statement in the footer of their website, and the same is announced to the attendees during the event: <em>The event organizers reserve the right to refuse admission or expel any participant engaging in incorrect behavior in accordance with the provisions of law.</em> The conference takes aggressive behavior very seriously and does not allow such conducts within the hours of the conference."
+      url: "http://rubyconfargentina.org/code_of_conduct.html"
     }]
   }, {
     name: "eurucamp",
-    twitter: "eurucamp",
     policies: [{ text: "CoC", url: "http://2014.eurucamp.org/policies" }]
   }
 ];
@@ -206,7 +166,9 @@ Confs.prototype = {
 
     $.when.apply(this, requests).then(function() {
       $.each(arguments, function() {
-        confs = confs.concat(JSON.parse(window.atob(this[0].content.replace(/\s/g, ''))));
+        var yaml=window.atob(this[0].content.replace(/\s/g, ''));
+        yaml=yaml.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x84\x86-\x9F\uD800-\uDFFF\uFFFE\uFFFF]/g, ''); //Remove any "non printable characters" which jsyaml would choke on
+        confs = confs.concat(jsyaml.safeLoad(yaml));
       });
 
       $.each(confs, function() {
@@ -288,9 +250,8 @@ $(function() {
   var selector = '#conferences';
   if($(selector).length > 0) {
     var urls = [
-      'https://api.github.com/repos/ruby-conferences/ruby-conferences-site/contents/data/current.json',
-      'https://api.github.com/repos/ruby-conferences/ruby-conferences-site/contents/data/tba.json',
-      'https://api.github.com/repos/ruby-conferences/ruby-conferences-site/contents/data/past.json'
+      'https://api.github.com/repos/ruby-conferences/ruby-conferences-site/contents/data/current.yml',
+      'https://api.github.com/repos/ruby-conferences/ruby-conferences-site/contents/data/past.yml'
     ];
     new Confs('#conferences', urls);
   }
