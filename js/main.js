@@ -195,6 +195,9 @@ Confs.data = [
   }, {
     name: "Ruby devroom at FOSDEM",
     policies: [{ text: "CoC", url: "http://rubyberlin.github.io/code-of-conduct/"}]
+  }, {
+    name: "ROSSConf Vienna",
+    policies: [{ text: "CoC", url: "http://www.rossconf.io/#coc"}]
   }
 ];
 Confs.find = function(conf) {
